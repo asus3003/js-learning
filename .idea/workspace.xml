@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4b42d87-eb3e-47d1-a0db-6d489f9c23b9" name="Changes" comment="add styles.css">
+    <list default="true" id="c4b42d87-eb3e-47d1-a0db-6d489f9c23b9" name="Changes" comment="-all done!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,11 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2awOzR9erYJ7SedI4Vy0awlc2we" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +54,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -64,6 +68,7 @@
       <updated>1705226436517</updated>
       <workItem from="1705226438102" duration="2308000" />
       <workItem from="1705463982985" duration="2208000" />
+      <workItem from="1705467449078" duration="13814000" />
     </task>
     <task id="LOCAL-00001" summary="add styles.css">
       <created>1705226709377</created>
@@ -86,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705226791882</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-">
+      <created>1705495654915</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705495654915</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +115,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="test" />
+                        <option value="html-css_questions" />
                       </list>
                     </value>
                   </entry>
@@ -117,6 +129,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add styles.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="add styles.css" />
+    <MESSAGE value="-" />
+    <MESSAGE value="-all done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="-all done!" />
   </component>
 </project>
