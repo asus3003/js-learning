@@ -64,6 +64,7 @@ else
         }
         */
        //Вариант сайта learnjavascript.ru
+
        let userName = prompt('Кто там?','');
        if(userName === 'Админ') 
        {
