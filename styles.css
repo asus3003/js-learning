@@ -1,19 +1,11 @@
-body {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+html, body {
+    height: 100%;
 }
 
-header {
-    background-color: antiquewhite;
-    min-height: 100px;
- }
+header, footer {
+    height: 100px;
+}
 
 main {
-    background-color: aquamarine;
-}
-
-footer {
-    background-color: chocolate;
-    min-height: 100px;
+    height: calc(100% - 200px);
 }
