@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4b42d87-eb3e-47d1-a0db-6d489f9c23b9" name="Changes" comment="refactor styles.css">
+    <list default="true" id="c4b42d87-eb3e-47d1-a0db-6d489f9c23b9" name="Changes" comment="добавил normalize.css цвет фона в header, main, footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
@@ -134,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705553762269</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="добавил normalize.css цвет фона в header, main, footer">
+      <created>1705576601989</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705576601989</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +158,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/html-css_questions" />
+                        <option value="html-css_questions" />
                       </list>
                     </value>
                   </entry>
@@ -168,6 +175,7 @@
     <MESSAGE value="-" />
     <MESSAGE value="-all done!" />
     <MESSAGE value="refactor styles.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor styles.css" />
+    <MESSAGE value="добавил normalize.css цвет фона в header, main, footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил normalize.css цвет фона в header, main, footer" />
   </component>
 </project>
