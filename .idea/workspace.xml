@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4b42d87-eb3e-47d1-a0db-6d489f9c23b9" name="Changes" comment="-all done!">
+    <list default="true" id="c4b42d87-eb3e-47d1-a0db-6d489f9c23b9" name="Changes" comment="refactor styles.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
@@ -25,12 +25,12 @@
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
-        <option name="originalMessage" value="add styles.css" />
-        <option name="rewordedMessage" value="add styles.css" />
+        <option name="originalMessage" value="-all done!" />
+        <option name="rewordedMessage" value="all done" />
       </RewordedCommitMessageMapping>
     </option>
     <option name="currentCommit" value="1" />
-    <option name="onto" value="4108a0c79dd12699f75280e867d1deea2e826ed8" />
+    <option name="onto" value="3d2e1eaf0cbdf93735a3d59afc95df2e6439a465" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -44,21 +44,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Work/Learning/js-learning",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Work/Learning/js-learning&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +69,7 @@
       <updated>1705226436517</updated>
       <workItem from="1705226438102" duration="2308000" />
       <workItem from="1705463982985" duration="2208000" />
-      <workItem from="1705467449078" duration="22445000" />
+      <workItem from="1705467449078" duration="27291000" />
     </task>
     <task id="LOCAL-00001" summary="add styles.css">
       <created>1705226709377</created>
@@ -120,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705496577949</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactor styles.css">
+      <created>1705553634753</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705553634753</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refactor styles.css">
+      <created>1705553762269</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705553762269</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +151,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="html-css_questions" />
+                        <option value="origin/html-css_questions" />
                       </list>
                     </value>
                   </entry>
@@ -153,6 +167,7 @@
     <MESSAGE value="add styles.css" />
     <MESSAGE value="-" />
     <MESSAGE value="-all done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="-all done!" />
+    <MESSAGE value="refactor styles.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor styles.css" />
   </component>
 </project>

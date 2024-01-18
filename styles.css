@@ -6,7 +6,15 @@ header, footer {
     height: 100px;
 }
 
-main {
-    height: calc(100% - 200px);
+header {
+    background-color: antiquewhite;
 }
 
+
+footer {
+    background-color: aquamarine;
+}
+main {
+    height: calc(100% - 200px);
+    background-color: chocolate;
+}
