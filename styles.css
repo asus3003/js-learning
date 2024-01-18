@@ -2,10 +2,27 @@ html, body {
     height: 100%;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+
+}
+
 header, footer {
     height: 100px;
 }
 
+header {
+    background-color: antiquewhite;
+}
+
+
+footer {
+    background-color: aquamarine;
+}
 main {
     height: calc(100% - 200px);
+    background-color: chocolate;
 }
