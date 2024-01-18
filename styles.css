@@ -3,15 +3,17 @@
 
 html, body {
     height: 100%;
+    width: 100%;
 }
 h1, h2, p {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
+
 
 header, footer {
     height: 100px;
-
 }
 
 header {
@@ -19,11 +21,16 @@ header {
 
 }
 
-
 footer {
     background-color: aquamarine;
 }
 main {
     height: calc(100% - 200px);
     background-color: chocolate;
+}
+.paragraph {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
