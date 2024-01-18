@@ -1,0 +1,110 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <link rel=\"stylesheet\" href=\"styles.css\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n\r\n    <header>\r\n            <h1>Header - высота 100px, должен иметь цвет фона</h1>\r\n            <p>Текст и внутри заголовка должен быть выровнен по центру, по горизонтали и вертикали</p>\r\n     </header>\r\n\r\n\r\n        <main>\r\n            <h2>Main - высота всё свободное пространство, должен иметь цвет фона</h2>\r\n            <p>Текст и внутри мэйн должен быть выровнен по центру, по горизонтали и вертикали</p>\r\n            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, odit voluptate! Ab cumque dignissimos illo mollitia necessitatibus reiciendis voluptas? Assumenda debitis distinctio earum fugit laboriosam nobis nostrum, odit omnis optio.</p>\r\n        </main>\r\n\r\n\r\n    <footer>\r\n        <h2>Footer - высота 100px, должен иметь цвет фона</h2>\r\n        <p>Текст и внутри футера должен быть выровнен по центру, по горизонтали и вертикали</p>\r\n    </footer>\r\n\r\n    <script src=\"script.js\"></script>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 6f4444b78b1518fe35ccd3bf66e3b91ce7de3345)
++++ b/index.html	(date 1705551057875)
+@@ -17,7 +17,6 @@
+         <main>
+             <h2>Main - высота всё свободное пространство, должен иметь цвет фона</h2>
+             <p>Текст и внутри мэйн должен быть выровнен по центру, по горизонтали и вертикали</p>
+-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, odit voluptate! Ab cumque dignissimos illo mollitia necessitatibus reiciendis voluptas? Assumenda debitis distinctio earum fugit laboriosam nobis nostrum, odit omnis optio.</p>
+         </main>
+ 
+ 
+Index: styles.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>body {\r\n    display: flex;\r\n    flex-direction: column;\r\n    text-align: center;\r\n}\r\n\r\nheader {\r\n    background-color: antiquewhite;\r\n    min-height: 100px;\r\n }\r\n\r\nmain {\r\n    background-color: aquamarine;\r\n}\r\n\r\nfooter {\r\n    background-color: chocolate;\r\n    min-height: 100px;\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/styles.css b/styles.css
+--- a/styles.css	(revision 6f4444b78b1518fe35ccd3bf66e3b91ce7de3345)
++++ b/styles.css	(date 1705553392553)
+@@ -1,19 +1,11 @@
+-body {
+-    display: flex;
+-    flex-direction: column;
+-    text-align: center;
++html, body {
++    height: 100%;
+ }
+ 
+-header {
+-    background-color: antiquewhite;
+-    min-height: 100px;
+- }
++header, footer {
++    height: 100px;
++}
+ 
+ main {
+-    background-color: aquamarine;
+-}
+-
+-footer {
+-    background-color: chocolate;
+-    min-height: 100px;
++    height: calc(100% - 200px);
+ }
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c4b42d87-eb3e-47d1-a0db-6d489f9c23b9\" name=\"Changes\" comment=\"-all done!\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"dev\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitRewordedCommitMessages\">\r\n    <option name=\"commitMessagesMapping\">\r\n      <RewordedCommitMessageMapping>\r\n        <option name=\"originalMessage\" value=\"add styles.css\" />\r\n        <option name=\"rewordedMessage\" value=\"add styles.css\" />\r\n      </RewordedCommitMessageMapping>\r\n    </option>\r\n    <option name=\"currentCommit\" value=\"1\" />\r\n    <option name=\"onto\" value=\"4108a0c79dd12699f75280e867d1deea2e826ed8\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2awOzR9erYJ7SedI4Vy0awlc2we\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"last_opened_file_path\": \"C:/Work/Learning/js-learning\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c4b42d87-eb3e-47d1-a0db-6d489f9c23b9\" name=\"Changes\" comment=\"\" />\r\n      <created>1705226436517</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1705226436517</updated>\r\n      <workItem from=\"1705226438102\" duration=\"2308000\" />\r\n      <workItem from=\"1705463982985\" duration=\"2208000\" />\r\n      <workItem from=\"1705467449078\" duration=\"14483000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"add styles.css\">\r\n      <created>1705226709377</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705226709377</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"add styles.css\">\r\n      <created>1705226754707</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705226754707</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"add styles.css\">\r\n      <created>1705226791882</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705226791882</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"-\">\r\n      <created>1705495654915</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705495654915</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"-all done!\">\r\n      <created>1705495984017</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705495984017</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"6\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"html-css_questions\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"add styles.css\" />\r\n    <MESSAGE value=\"-\" />\r\n    <MESSAGE value=\"-all done!\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"-all done!\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 6f4444b78b1518fe35ccd3bf66e3b91ce7de3345)
++++ b/.idea/workspace.xml	(date 1705553392621)
+@@ -4,7 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="c4b42d87-eb3e-47d1-a0db-6d489f9c23b9" name="Changes" comment="-all done!" />
++    <list default="true" id="c4b42d87-eb3e-47d1-a0db-6d489f9c23b9" name="Changes" comment="-all done!">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -65,7 +69,7 @@
+       <updated>1705226436517</updated>
+       <workItem from="1705226438102" duration="2308000" />
+       <workItem from="1705463982985" duration="2208000" />
+-      <workItem from="1705467449078" duration="14483000" />
++      <workItem from="1705467449078" duration="22445000" />
+     </task>
+     <task id="LOCAL-00001" summary="add styles.css">
+       <created>1705226709377</created>
+@@ -102,7 +106,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1705495984017</updated>
+     </task>
+-    <option name="localTasksCounter" value="6" />
++    <task id="LOCAL-00006" summary="-all done!">
++      <created>1705496569395</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1705496569395</updated>
++    </task>
++    <task id="LOCAL-00007" summary="-all done!">
++      <created>1705496577949</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1705496577949</updated>
++    </task>
++    <option name="localTasksCounter" value="8" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
