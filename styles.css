@@ -28,8 +28,8 @@ main {
     height: calc(100% - 200px);
     background-color: chocolate;
 }
-.paragraph {
-    position: fixed;
+.conteiner {
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
